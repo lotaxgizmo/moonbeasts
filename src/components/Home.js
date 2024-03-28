@@ -26,9 +26,9 @@ function Home() {
                     <img src={portal} alt="" className='w-72' />
                 </div>
                 <div className="rightbtn">
-                    <img src={telegram} alt="" className='w-80 py-4' />
-                    <img src={x} alt="" className='w-80 py-4' />
-                    <img src={lorebtn} alt="" className='w-80 py-4' />
+                    <img src={homebtn} alt="" className='w-80 py-4' />
+                    <img src={about} alt="" className='w-80 py-4' />
+                    <img src={raydium} alt="" className='w-80 py-4' />
                 </div>
             </div>
             <img src={clan} alt="" className=' lg:w-80 py-4' />

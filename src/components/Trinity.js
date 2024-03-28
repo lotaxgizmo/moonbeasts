@@ -12,9 +12,9 @@ import raydium from '../assets/raydium.svg'
 
 function Trinity() {
     return (
-        <div className='TRINITY flex flex-col items-center justify-center pt-10'>
+        <div className='TRINITY flex flex-col items-center pb-32 justify-center pt-10 px-4'>
             <img src={trinitytext} alt="" className='mb-[-90pxd' />
-            <img src={plants} alt="" className='w-72' />
+            <img src={plants} alt="" className='w-52 lg:w-72' />
 
             <div className="angel">
                 <img src={angelstitle} alt="" className='my-10' />
@@ -23,7 +23,7 @@ function Trinity() {
 
 
 
-            <div className="column flex flex-row justify-around w-full">
+            <div className="column flex flex-col lg:flex-row justify-around w-full">
 
                 <div className="bear">
                     <img src={bearstitle} alt="" className='my-10' />
@@ -37,11 +37,11 @@ function Trinity() {
             </div>
 
             <div className="tab relative flex justify-center items-center">
-                <p className='text-black text-xl text-center z-10 absolute px-4'>
+                <p className='text-[#9A7AF2] lg:text-black text-md lg:text-xl text-center z-10 lg:absolute px-4'>
                     The three clans control territorial forces in the ether world. lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet The three clans control territorial forces in the ether world. lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet
                 </p>
 
-                <img src={trinitytab} alt="" className='' />
+                <img src={trinitytab} alt="" className='hidden lg:block' />
             </div>
             <img src={raydium} alt="" className='py-5' />
         </div>
