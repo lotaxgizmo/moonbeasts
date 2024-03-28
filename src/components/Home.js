@@ -31,7 +31,7 @@ function Home() {
                     <img src={lorebtn} alt="" className='w-80 py-4' />
                 </div>
             </div>
-            {/*   <img src={clan} alt="" className='w-80 py-4' /> */}
+            <img src={clan} alt="" className=' lg:w-80 py-4' />
         </div>
     )
 }
