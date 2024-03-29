@@ -29,7 +29,9 @@ function Lore() {
             <div className="loretext relative flex flex-col justify-center items-center">
 
                 <p className='text-[#9A7AF2] text-md lg:text-3xl text-center z-10 lg:absolute lg:px-14'>
-                    The four clans lived in harmony, till blah blah blah, Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet Lorem ipsum dolor amet
+                    The four clans once lived in harmony, their domains intertwined like the roots of a great, ancient tree. But as eons passed and the cosmos whispered secrets known only to the void, a shadow crept upon the land. Whispers of cosmic disturbances, unseen and unfathomable, began to haunt the darkest corners of their reality.
+
+
                 </p>
                 <div className="frame absolutes top-6 hidden lg:block">
                     <img src={midframe} alt="" className='absolute  w-[800px]l max-w-none' />
