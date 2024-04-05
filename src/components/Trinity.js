@@ -1,5 +1,5 @@
 import React from 'react'
-import trinitytext from '../assets/trinitytext.svg'
+import trinitytext from '../assets/trinitytext2.svg'
 import plants from '../assets/plants.svg'
 import bearstitle from '../assets/bearstitle.svg'
 import bearstab from '../assets/bearstab.svg'

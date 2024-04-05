@@ -1,7 +1,8 @@
 import React from 'react'
-import wartext from '../assets/wartext.svg'
+import wartext from '../assets/wartext2.svg'
 import flags from '../assets/flags.svg'
 import darkbluebg from '../assets/darkbluebg.svg'
+import raydium from '../assets/raydium.svg'
 
 function War() {
     return (
@@ -22,6 +23,8 @@ function War() {
 
                 <img src={darkbluebg} alt="" className='hidden lg:block' />
             </div>
+
+            <img src={raydium} alt="" className='py-5' />
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import loretext from '../assets/loretext.svg'
-import onceupon from '../assets/onceupon.svg'
+import loretext from '../assets/loretext2.svg'
+import onceupon from '../assets/onceupon2.svg'
 import fountain from '../assets/fountain.svg'
 import topframe from '../assets/topframe.svg'
 import subtractcolor from '../assets/subtractcolor.svg'
@@ -16,7 +16,7 @@ function Lore() {
                 <img src={fountain} alt="" className='w-14 lg:w-60 py-5' />
 
                 <div className='onceupon relative flex flex-col items-center justify-center align-middle px-4 mt-10 lg:mt-20'>
-                    <img src={onceupon} alt="" className='absolutes' />
+                    <img src={onceupon} alt="" className=' lg:px-32 absolutes' />
                     <div className="frame absolute   top-auto">
                         <img src={topframe} alt="" className='absolute w-[400px] lg:w-[800px] max-w-none' />
                         <img src={subtractcolor} alt="" className='absolutes mix-blend-color-dodge w-[400px] lg:w-[800px] max-w-none' />
